@@ -6,6 +6,7 @@ import SearchList from './projects/project4/SearchList'
 import LoginForm from './projects/project5/LoginForm'
 import Stopwatch from './projects/project6/Stopwatch'
 import UserList from './projects/project7/UserList'
+import DropDown from './projects/project8/DropDown'
 
 function App() {
   
@@ -19,6 +20,7 @@ function App() {
       <LoginForm />
       <Stopwatch />
       <UserList />
+      <DropDown />
     </>
   )
 }

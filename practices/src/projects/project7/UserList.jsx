@@ -8,7 +8,7 @@ const UserList = () => {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response => response.json())
       .then(data => setUsers(data))
-      .catch(error => console.error('Error fetching users:', error));
+      .catch(error => console.error('Error fetching users:', error)); 
   }, []);
 
   return (
